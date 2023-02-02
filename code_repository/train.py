@@ -1,4 +1,4 @@
-from model import *
+from pybo.model import *
 
 import os
 from PIL import Image
