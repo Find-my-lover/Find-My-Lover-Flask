@@ -1,6 +1,6 @@
 from logging.config import dictConfig
 
-from config.default import *
+from default import *
 
 SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(
     user="admin",
@@ -10,6 +10,8 @@ SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 SECRET_KEY = b'6rD+XqRaLrmik+xHCc15O8Rm8tNi/gSIAhDeOqM6'
 
+
+'''
 dictConfig({
     'version': 1,
     'formatters': {
@@ -31,4 +33,4 @@ dictConfig({
         'level': 'INFO',
         'handlers': ['file']
     }
-})
+})'''
