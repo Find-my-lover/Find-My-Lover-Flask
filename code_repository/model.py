@@ -1,4 +1,5 @@
-import json
+
+333import json
 import os
 from torchvision.models import *
 import wandb
@@ -21,10 +22,10 @@ class DataLoad:
         idx = 0
         data = []
         for folder in os.listdir('/content/drive/MyDrive/Find my lover/animal/animals/animals'):
-        if folder in labels:
-            idx += 1
-            labels_l[folder] = idx
-            labels_r[idx] = folder
+            if folder in labels:
+                idx += 1
+                labels_l[folder] = idx
+                labels_r[idx] = folder
         for folder in tqdm(os.listdir('/content/drive/MyDrive/Find my lover/animal/animals/animals')):
             if folder in labels:
             for file in os.listdir(f'/content/drive/MyDrive/Find my lover/animal/animals/animals/{folder}/'):
