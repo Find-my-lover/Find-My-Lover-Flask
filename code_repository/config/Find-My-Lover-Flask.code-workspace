@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Find-My-Lover-Flask",
+			"path": ".."
+		},
+		{
+			"name": "ringmybell",
+			"path": "../../../OneDrive/바탕 화면/ringmybell"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
